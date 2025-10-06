@@ -1,0 +1,212 @@
+[
+  {
+    "id": "prereqs-setup",
+    "title": "Prerequisites & Project Setup",
+    "description": "Node, tooling, and baseline conventions.",
+    "level": "Beginner",
+    "items": [
+      { "h": "Environment", "list": ["Node LTS", "VS Code + ESLint + Prettier", "npm/yarn/pnpm"], "learningstatus" : "Done" },
+      { "h": "Scaffold", "list": ["Vite React + TS", "Folder structure", "Env variables (.env)"], "learningstatus" : "Pending" },
+      { "h": "Quality", "list": ["ESLint + Prettier", "TypeScript strict", "Scripts: dev/build/test/lint"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "fundamentals",
+    "title": "React Fundamentals",
+    "description": "JSX, components, props, state, rendering basics.",
+    "level": "Beginner",
+    "items": [
+      { "h": "JSX & Rendering", "list": ["JSX rules", "Expressions", "Fragments", "Conditional rendering"], "learningstatus" : "Pending" },
+      { "h": "Components", "list": ["Function components", "Props & children", "Composition", "Prop drilling basics"], "learningstatus" : "Pending" },
+      { "h": "State", "list": ["useState", "Derived state", "Functional updates", "Lifting state up"], "learningstatus" : "Pending" },
+      { "h": "Lists & Keys", "list": ["Stable keys", "Rendering arrays", "Empty states"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "core-hooks",
+    "title": "Core Hooks",
+    "description": "Effects, memoization, refs, and custom hooks.",
+    "level": "Beginner",
+    "items": [
+      { "h": "Effects", "list": ["useEffect lifecycle", "Deps arrays", "Cleanup", "AbortController for fetch"], "learningstatus" : "Pending" },
+      { "h": "Memoization", "list": ["useMemo", "useCallback", "React.memo", "When not to memoize"], "learningstatus" : "Pending" },
+      { "h": "Refs", "list": ["useRef (DOM & values)", "Imperative handle", "Focus & measurements"], "learningstatus" : "Pending" },
+      { "h": "Custom Hooks", "list": ["Extract logic", "Input contracts", "Testing hooks"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "rendering-reconciliation",
+    "title": "Rendering & Reconciliation",
+    "description": "How React updates the UI and why keys matter.",
+    "level": "Beginner to Intermediate",
+    "items": [
+      { "h": "Render Cycle", "list": ["Render vs commit", "Batched updates", "StrictMode behavior"], "learningstatus" : "Pending" },
+      { "h": "Reconciliation", "list": ["VDOM diffing", "Keys & identity", "List stability"], "learningstatus" : "Pending" },
+      { "h": "Portals", "list": ["Modals & overlays", "Event bubbling caveats"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "data-fetching",
+    "title": "Data Fetching & Remote State",
+    "description": "Patterns for fetching, caching, and syncing server data.",
+    "level": "Beginner to Intermediate",
+    "items": [
+      { "h": "HTTP Basics", "list": ["fetch/axios", "Loading & error states", "Retries & backoff", "Pagination"], "learningstatus" : "Pending" },
+      { "h": "Caching", "list": ["Stale/fresh windows", "Invalidate/refetch", "Optimistic updates", "Window focus refetch"], "learningstatus" : "Pending" },
+      { "h": "Libraries", "list": ["TanStack Query (React Query)", "SWR", "Where not to use Zustand for server data"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "routing",
+    "title": "Routing",
+    "description": "SPA navigation, layouts, and errors.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "React Router", "list": ["createBrowserRouter", "Nested routes & layouts", "Loaders/actions (optional)", "Error boundaries & 404s"], "learningstatus" : "Pending" },
+      { "h": "Next.js (optional)", "list": ["App Router", "Layouts & templates", "Dynamic routes", "Metadata for SEO"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "typescript",
+    "title": "TypeScript with React",
+    "description": "Type-safe components, events, and generic hooks.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "Props & State", "list": ["PropsWithChildren", "Discriminated unions", "Event types", "Generics for hooks"], "learningstatus" : "Pending" },
+      { "h": "Patterns", "list": ["as const", "satisfies", "Utility types", "ReturnType & Parameters"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "state-management",
+    "title": "State Management at Scale",
+    "description": "Local vs global: Context, Zustand, Redux Toolkit.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "Context API", "list": ["Provider boundaries", "Avoid over-render", "Selectors", "Split contexts"], "learningstatus" : "Pending" },
+      { "h": "Libraries", "list": ["Zustand", "Redux Toolkit", "When to choose which", "Server vs client state"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "forms",
+    "title": "Forms at Scale",
+    "description": "Accessible, validated, resilient forms.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "Libraries", "list": ["React Hook Form", "Zod/Yup", "Resolvers", "Field arrays & dynamic forms"], "learningstatus" : "Pending" },
+      { "h": "UX & A11y", "list": ["Labels & descriptions", "ARIA state", "Keyboard navigation", "Error messaging"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "styling-design-system",
+    "title": "Styling & Design Systems",
+    "description": "Consistent, scalable UI foundations.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "Styling", "list": ["Tailwind", "CSS Modules", "CVA / variants", "Dark mode & themes"], "learningstatus" : "Pending" },
+      { "h": "UI Kits", "list": ["Flowbite-React", "Radix", "shadcn/ui", "A11y checks"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "performance-concurrency",
+    "title": "Performance & Concurrency",
+    "description": "Measure first; optimize where it matters.",
+    "level": "Intermediate to Advanced",
+    "items": [
+      { "h": "Measure", "list": ["React Profiler", "Rerender analysis", "why-did-you-render (concept)"], "learningstatus" : "Pending" },
+      { "h": "Optimize", "list": ["Memo strategy", "Virtualization (react-virtual)", "Code splitting & lazy", "useDeferredValue & useTransition"], "learningstatus" : "Pending" },
+      { "h": "Assets", "list": ["Images & fonts", "Bundle analysis", "Long task breakup"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "suspense",
+    "title": "Suspense & Boundaries",
+    "description": "Framework-level loading & error handling.",
+    "level": "Advanced",
+    "items": [
+      { "h": "Suspense", "list": ["Suspense boundaries", "Fallback UX", "Error boundary interplay"], "learningstatus" : "Pending" },
+      { "h": "Transitions", "list": ["useTransition for UI state", "Skeletons vs spinners", "Deferred work"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "testing",
+    "title": "Testing",
+    "description": "Confidence to ship: unit, integration, and e2e.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "Unit/Integration", "list": ["Vitest/Jest", "React Testing Library", "Mocking fetch/Query", "Testing hooks"], "learningstatus" : "Pending" },
+      { "h": "E2E", "list": ["Playwright/Cypress", "Smoke vs regression", "Network stubbing", "CI basics"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "error-logging",
+    "title": "Error Handling & Observability",
+    "description": "Make failures friendly & traceable.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "Boundaries", "list": ["Component boundaries", "Router error elements", "Fallback UIs"], "learningstatus" : "Pending" },
+      { "h": "Monitoring", "list": ["Sentry basics", "Client/server logs", "User feedback capture"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "security-auth",
+    "title": "Auth & Web Security",
+    "description": "Protect routes, sessions, and data.",
+    "level": "Intermediate to Advanced",
+    "items": [
+      { "h": "Auth", "list": ["Session vs JWT", "NextAuth basics", "Guards & protected routes"], "learningstatus" : "Pending" },
+      { "h": "Security", "list": ["XSS & sanitization", "CSR vs SSR implications", "SameSite cookies", "Secrets management"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "ssr-ssg-csr",
+    "title": "SSR, SSG, CSR (Next.js optional)",
+    "description": "Pick the right rendering mode.",
+    "level": "Advanced",
+    "items": [
+      { "h": "Trade-offs", "list": ["SEO & TTFB", "Caching & ISR", "Streaming", "Server Components (concept)"], "learningstatus" : "Pending" },
+      { "h": "Data layer", "list": ["Route handlers", "Server actions (concept)", "Edge vs Node runtimes"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "a11y-i18n",
+    "title": "Accessibility & i18n",
+    "description": "Inclusive and global-ready apps.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "A11y", "list": ["Semantics", "Focus management", "Traps & skip links", "Contrast"], "learningstatus" : "Pending" },
+      { "h": "i18n", "list": ["FormatJS/next-intl", "RTL/locales", "Dates & numbers", "Content direction"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "dx-build-deploy",
+    "title": "DX, Build, & Deployment",
+    "description": "Ship with confidence and speed.",
+    "level": "Intermediate",
+    "items": [
+      { "h": "Tooling", "list": ["ESLint + Prettier", "TS strict", "Bundle analysis", "Env mgmt"], "learningstatus" : "Pending" },
+      { "h": "Deploy", "list": ["Vercel/Netlify", "Preview deployments", "CDN caching & headers", "Sitemaps & robots"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "extras-polish",
+    "title": "Extras: Animations, Charts, Maps, Virtualization",
+    "description": "Polish and scale UI.",
+    "level": "Elective",
+    "items": [
+      { "h": "Animations", "list": ["Framer Motion", "Enter/exit & layout", "Perf caveats"], "learningstatus" : "Pending" },
+      { "h": "Data Viz", "list": ["Recharts", "Responsive containers", "Accessible charts"], "learningstatus" : "Pending" },
+      { "h": "Virtualization", "list": ["react-virtual", "Windowing lists", "Sticky headers"], "learningstatus" : "Pending" }
+    ]
+  },
+  {
+    "id": "capstone-roadmap",
+    "title": "Capstone & Further Roadmap",
+    "description": "Bring it together and plan next steps.",
+    "level": "All",
+    "items": [
+      { "h": "Capstone Ideas", "list": ["Blog/storefront (SSR/SSG)", "Dashboard with charts", "Real-time chat (WebSocket)"], "learningstatus" : "Pending" },
+      { "h": "Quality Bar", "list": ["Lighthouse ≥90", "Zero console errors", "Type-safe build", "Tests: unit + e2e"], "learningstatus" : "Pending" },
+      { "h": "Next Steps", "list": ["Server Components (deeper)", "Advanced caching", "Microfrontends (optional)"], "learningstatus" : "Pending" }
+    ]
+  }
+]

@@ -1,5 +1,7 @@
 # Revesion React.js with TypeScript & Vite
-This project created for revision react latest version (19.X)
+I built this project to revise every key concept and keep up with the latest updates in React.js.
+    I’ve also created routes for each practice so you can visit them easily, and it’s open source
+    feel free to explore the code.
 
 ### install 
 `
@@ -15,4 +17,10 @@ npm run dev
 ### Packeges Inslled
 - Vite
 - Flowbite React (Tailwind CSS) 
+- react-router-dom (control Page Routes)
+- 
+- 
+- 
+- 
+- 
 - 

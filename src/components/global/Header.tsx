@@ -13,12 +13,12 @@ export default function Component() {
         <NavbarToggle />
       </div>
       <NavbarCollapse>
-        <NavbarLink href="#">
+        <NavbarLink href="/">
           My Goal
         </NavbarLink>
         <NavbarLink href="#">Learning </NavbarLink>
-        <NavbarLink href="#">Services</NavbarLink>
-        <NavbarLink href="#">Pricing</NavbarLink>
+        <NavbarLink href="#">Pages</NavbarLink>
+        <NavbarLink href="#">Others</NavbarLink>
         <NavbarLink href="#">Contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
