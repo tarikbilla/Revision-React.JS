@@ -9,4 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'), // Set @ to point to /src
     },
   },
+  base: "/Revision-React.JS/",
 });
