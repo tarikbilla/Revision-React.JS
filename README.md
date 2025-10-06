@@ -1,2 +1,1 @@
-# Revision-React.JS
-Just for Revision React.js
+# Lear React.js with TypeScript & Vite
