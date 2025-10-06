@@ -1,4 +1,4 @@
-import data from "@/data/learing-modules.json"; // <— JSON import (Vite supports this)
+import data from "@/data/learing-modules.json";
 import { ReactModulesGrid } from "@/components/ReactModulesGrid";
 
 export default function Home() {
