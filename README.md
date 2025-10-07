@@ -4,14 +4,14 @@ I built this project to revise every key concept and keep up with the latest upd
     feel free to explore the code.
 
 ### install 
-`
+```
 npm create vite@latest my-app -- --template react-ts
-`
+```
 
 ### install 
-`
+```
 npm run dev
-`
+```
 
 
 ### Packeges Inslled

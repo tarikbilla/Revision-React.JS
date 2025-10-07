@@ -1,5 +1,5 @@
 
-import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle, MegaMenuDropdown } from "flowbite-react";
 
 export default function Component() {
   return (
@@ -16,7 +16,80 @@ export default function Component() {
         <NavbarLink href="/">
           My Goal
         </NavbarLink>
-        <NavbarLink href="#">Learning </NavbarLink>
+        <NavbarLink>
+        <MegaMenuDropdown toggle={<>Learning</>}>
+            <ul className="grid grid-cols-3">
+              <div className="space-y-4 p-4">
+                <li>
+                  <a href="/learnes" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    ES6 to Latest
+                  </a>
+                </li>
+                <li>
+                  <a href="/env" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    .env File Setup
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+              </div>
+              <div className="space-y-4 p-4">
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+              </div>
+              <div className="space-y-4 p-4">
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+              </div>
+              
+              
+            </ul>
+          </MegaMenuDropdown>
+        </NavbarLink>
         <NavbarLink href="#">Pages</NavbarLink>
         <NavbarLink href="#">Others</NavbarLink>
         <NavbarLink href="#">Contact</NavbarLink>

@@ -1,13 +1,24 @@
 [
-  {
+{
+  "id": "learn-script",
+  "title": "learn JS, TS, ES",
+  "description": "Learn JavaScript, TypeScript, and ES6 to the latest version.",
+  "level": "Beginner",
+  "items": [
+    { "h": "JavaScript", "list": ["Variable", "Loop", "Condition", "Function", "Class & Object", "Others"], "learningstatus": "Done" },
+    { "h": "TypeScript", "list": ["Variable", "Loop", "Condition", "Function", "Class & Object", "Others"], "learningstatus": "Done" },
+    { "h": "ES6 to latest", "list": ["React ES6", "ES6 Classes", "ES6 Arrow Functions", "ES6 Variables", "ES6 Array map()", "ES6 Destructuring", "ES6 Spread Operator", "ES6 Modules", "ES6 Ternary Operator", "ES6 Template Strings"], "learningstatus": "Done" }
+  ]
+},
+{
     "id": "prereqs-setup",
     "title": "Prerequisites & Project Setup",
     "description": "Node, tooling, and baseline conventions.",
     "level": "Beginner",
     "items": [
       { "h": "Environment", "list": ["Node LTS", "VS Code + ESLint + Prettier", "npm/yarn/pnpm"], "learningstatus" : "Done" },
-      { "h": "Scaffold", "list": ["Vite React + TS", "Folder structure", "Env variables (.env)"], "learningstatus" : "Pending" },
-      { "h": "Quality", "list": ["ESLint + Prettier", "TypeScript strict", "Scripts: dev/build/test/lint"], "learningstatus" : "Pending" }
+      { "h": "Scaffold", "list": ["Vite React + TS", "Folder structure", "Env variables (.env)"], "learningstatus" : "Done" },
+      { "h": "Quality", "list": ["ESLint + Prettier", "TypeScript strict", "Scripts: dev/build/test/lint"], "learningstatus" : "Done" }
     ]
   },
   {
