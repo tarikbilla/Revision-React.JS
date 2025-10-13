@@ -27,7 +27,7 @@
     "description": "JSX, components, props, state, rendering basics.",
     "level": "Beginner",
     "items": [
-      { "h": "JSX & Rendering", "list": ["JSX rules", "Expressions", "Fragments", "Conditional rendering"], "learningstatus" : "Pending" },
+      { "h": "JSX & Rendering", "list": ["JSX rules", "Expressions", "Fragments", "Conditional rendering"], "learningstatus" : "Done" },
       { "h": "Components", "list": ["Function components", "Props & children", "Composition", "Prop drilling basics"], "learningstatus" : "Pending" },
       { "h": "State", "list": ["useState", "Derived state", "Functional updates", "Lifting state up"], "learningstatus" : "Pending" },
       { "h": "Lists & Keys", "list": ["Stable keys", "Rendering arrays", "Empty states"], "learningstatus" : "Pending" }

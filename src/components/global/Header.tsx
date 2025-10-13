@@ -31,6 +31,18 @@ export default function Component() {
                   </a>
                 </li>
                 <li>
+                  <a href="/jsxrendering" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    JSX Rendering
+                  </a>
+                </li>
+                <li>
+                  <a href="/components" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Components
+                  </a>
+                </li>
+              </div>
+              <div className="space-y-4 p-4">
+                <li>
                   <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
                     Item
                   </a>
@@ -38,6 +50,70 @@ export default function Component() {
                 <li>
                   <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
                     Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+              </div>
+              <div className="space-y-4 p-4">
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Item
+                  </a>
+                </li>
+              </div>
+              
+              
+            </ul>
+          </MegaMenuDropdown>
+        </NavbarLink>
+
+
+        <NavbarLink>
+        <MegaMenuDropdown toggle={<>Projects</>}>
+            <ul className="grid grid-cols-3">
+              <div className="space-y-4 p-4">
+                <li>
+                  <a href="/weatherapp" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    Weather APP
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    item
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-blue-600 dark:hover:text-primary-500">
+                    item
                   </a>
                 </li>
               </div>

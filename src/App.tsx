@@ -5,6 +5,9 @@ import Home from '@/pages/Home'
 import { Learnes } from "./pages/learning/Learnes"
 import NotFound from "./pages/404"
 import Env from "./pages/learning/Env"
+import JsxRendering from "./pages/learning/JsxRendering"
+import Components from "./pages/learning/Components"
+import WeatherApp from "./pages/projects/weatherApp/weather"
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
               <Route path='/' element={<Home />} />
               <Route path='/learnes' element={<Learnes />} />
               <Route path='/env' element={<Env />} />
+              <Route path='/jsxrendering' element={<JsxRendering />} />
+              <Route path='/components' element={<Components />} />
+              <Route path='/weatherapp' element={<WeatherApp />} />
 
               <Route path='*' element={<NotFound />} />
 

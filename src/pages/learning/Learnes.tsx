@@ -6,6 +6,17 @@ function simpleFunction(x: number, y: number) {
 const arrowFunction = (x: number, y: number) => x + y;
 const message = msg => `My message is "${msg}"`;
 
+const n1 = 50;
+const n2 = 10;
+// if (n1 < n2) {
+//   console.log(`${n2}`);
+// } else {
+//   console.log(`${n1} `);
+// }
+console.log(n1 > n2 ? n1 : n2); // Ternary Operator
+
+const result = ""; // Template String
+
 
 {/* Learn ES6 Class */ }
 class dateTime {
@@ -39,7 +50,6 @@ const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
 const combinedArr = [...arr1, ...arr2]; // [1, 2, 3, 4, 5, 6]
 const extendedArr = [0, ...arr1, 7]; // [0, 1, 2, 3, 7]
-
 
 export const Learnes = () => {
   return (
@@ -84,6 +94,7 @@ export const Learnes = () => {
       <p className="py-2">Second Array: {arr2.join(", ")}</p>
       <p className="py-2">Combined Array: {combinedArr.join(", ")}</p>
       <p className="py-2">Extended Array: {extendedArr.join(", ")}</p>
+      <p className="py-2">{result || result}</p>
 
 
 
